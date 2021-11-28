@@ -22,6 +22,16 @@ def main():
             upper = True
     print(alnum,alpha,digit,lower,upper, sep="\n")
 
+    #Alternate Method
+    '''
+    print("True" if any(i.isalnum() for i in S) else "False")
+    print("True" if any(i.isalpha() for i in S) else "False")
+    print("True" if any(i.isdigit() for i in S) else "False")
+    print("True" if any(i.islower() for i in S) else "False")
+    print("True" if any(i.isupper() for i in S) else "False")
+    
+    '''
+
 
     return 0
 
