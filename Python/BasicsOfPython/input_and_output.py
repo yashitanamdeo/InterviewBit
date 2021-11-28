@@ -1,3 +1,5 @@
+'''Problem Statement:https://www.interviewbit.com/problems/input-and-output/'''
+
 def main():
     # YOUR CODE GOES HERE
     # Please take input and print output to standard input/output (stdin/stdout)
